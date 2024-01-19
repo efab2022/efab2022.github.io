@@ -1,4 +1,6 @@
-# Projects
+# Turing College Projects
+
+This page contains a summary of the projects submitted during this 18 months online self-paced bootcamp.
 
 ## Admission Test
 
@@ -19,10 +21,11 @@ from typing import Iterable, Dict, Tuple
 Point = Tuple[float, ...]
 Centroid = Point
 Clusters = Dict[Centroid, Iterable[Point]]
+
 ```
 
 This initial project required implementing the KNN clustering algorithm from scratch in pure python, without any
-external libraries (no scikit-learn, numpy,...) on the iris dataset.
+external libraries (no `scikit-learn`, `numpy`,...) on the iris dataset.
 
 **SUMMARY**: This challenge is designed to assess fluency and familiarity with software development, as well as the
 ability to learn new concepts and being able to apply them to solve a particular problem/task.
@@ -32,17 +35,35 @@ was really useful and allowed me to implement a solution with relative ease. Loo
 year ago, it comes off as crude, and you can tell it is strongly influenced by other languages instead of using a
 pythonic style.
 
-|                     | Examples                                                                               |
+|                     |                                                                                        |
 |---------------------|----------------------------------------------------------------------------------------|
 | Something I enjoyed | Learning a new language from scratch                                                   |
 | Something I learned | KNN Clustering, Downloading datasets, Partial function application                     |
 | Something fun       | I didn't know that the term was "Pythonic" so I wrote "python-esque" in some comments! |
 
-## Module 1
+## Module 1 - Data Wrangling with Python
 
+Module 1 is all about learning the basics:
 
+- Skills
+  - Python
+  - Data Analysis
+  - Data Cleaning
+  - Data Visualization
+  - Storytelling
+  - Analyzing simple datasets
+  - Communicating conclusions and outcomes 
+- Libraries/Frameworks
+  - Numpy
+  - Pandas
+  - Docker
+  - REST APIs
+  - Matplotlib
+  - Plotly
+  - Seaborn
+  - [PyPI](https://pypi.org/) package deployments
 
-### Sprint 1 - Basic Python, Docker, Numpy, Pandas
+### Sprint 1
 
 ### Sprint 2
 
@@ -50,7 +71,7 @@ pythonic style.
 
 ### Sprint 4
 
-## Module 2
+## Module 2 - Data Analysis
 
 ### Sprint 5
 
