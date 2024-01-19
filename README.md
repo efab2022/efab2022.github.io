@@ -1,16 +1,8 @@
-# Title
+# Data Science Portfolio
 
-## Subtitle
-
-### 3rd level
-
-> Quote
+## Turing College
 
 
-```python
-import pandas as pd
-import numpy as np
+### Projects
 
-
-```
-
+Visit the [projects](projects.md) page to see a summary of the projects I submitted as part of my studies at Turing College
