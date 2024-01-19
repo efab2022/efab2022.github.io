@@ -46,26 +46,50 @@ pythonic style.
 Module 1 is all about learning the basics:
 
 - Skills
-  - Python
-  - Data Analysis
-  - Data Cleaning
-  - Data Visualization
-  - Storytelling
-  - Analyzing simple datasets
-  - Communicating conclusions and outcomes 
+    - Python
+    - Data Analysis
+    - Data Cleaning
+    - Data Visualization
+    - Storytelling
+    - Analyzing simple datasets
+    - Communicating conclusions and outcomes
 - Libraries/Frameworks
-  - Numpy
-  - Pandas
-  - Docker
-  - REST APIs
-  - Matplotlib
-  - Plotly
-  - Seaborn
-  - [PyPI](https://pypi.org/) package deployments
+    - Numpy
+    - Pandas
+    - Docker
+    - REST APIs
+    - Matplotlib
+    - Plotly
+    - Seaborn
+    - [PyPI](https://pypi.org/) package deployments
 
 ### Sprint 1
 
+```python
+calc = Calculator()
+calc.enter(5)
+    .plus(4)
+    .times(4)
+    .times(10)
+    .divided_by(2)
+    .plus(45)
+    .root()
+    .ans()
+
+> (15.0, -15.0)
+```
+
 ### Sprint 2
+
+
+|                     |                                                                                                                                   |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Something I enjoyed |                                                                                                                                   |
+| Something I learned |                                                                                                                                   |
+| Something fun       | As someone who loves musical puns, this is the only dataset where I can have a variable called `the_corrs` to store correlations! |
+
+
+![sprint 2 - the corrs correlation table](img/sprint2_the_corrs.png)
 
 ### Sprint 3
 
