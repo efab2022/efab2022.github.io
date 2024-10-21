@@ -1,4 +1,4 @@
 title: Edu Almas
 # logo:
 show_download: false
-theme: jekyll-theme-leap-day
+remote_theme: pages-themes/cayman@v0.2.0
