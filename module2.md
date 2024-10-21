@@ -9,6 +9,7 @@ Module 2 is about data analysis:
     - Statistical Inferential Analysis
     - Hypothesis Testing
     - Confidence Intervals and Significance (p-value)
+    - A/B Testing
     - Bayesian Statistics
 - Modelling Fundamentals
     - Linear & Logistic Regression
@@ -20,160 +21,122 @@ Module 2 is about data analysis:
 
 ## Sprint 5 - Mental Health Dataset
 
-**Project Requirements**: This project is about being able to use our own judgement to perform the analysis and how to
-select the most important avenues of exploration. It's about iteratively raising hypotheses and use your data analysis
-skills to get answers.
+**Project Requirements**: This project is about being able to use our own judgement to perform unguided exploratory data analysis and choosing the most promising avenues of EDA. It's about iteratively raising hypotheses and use your data analysis skills to extract answers.
 
 **Key Learnings**:
+- advanced SQL
+- duckdb
+- statistical inference
 
--
+**Personal Reflection**: This project was an opportunity to look into a mental health dataset that spanned across years and companies.
 
-**Personal Reflection**: This project was
+I used this opportunity to explore privilege and axes of oppression in different populations of employees in the tech industry: from psychological safety in different companies and teams, to potential indicators that might highlight situations that would benefit from further investigation.
 
-![sprint1_calc.png](img/sprint1_calc.png)
-
-**Reviewer's highlights**:
-
-> Score: 92
-
-> All project is in a good shape, code works perfectly, unit tests are written very well it does cover a lot of corner
-> cases. Pip installation works great.
-
-Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.1)
-
-# Module 3
-
-Continue to ⏩ [Module 3](module3.md) to review the next set of projects.
-
-
-
-
-
-
-------------
-
-
-
-
-
-The content is split into 4 projects/sprints
-
-## Sprint 1 - Deploying a calculator module to PyPI
-
-**Project Requirements**: This project is about deploying a small calculator library to PyPI.
-
-**Key Learnings**:
-
-- Python basics
-- Testing using [unittest](https://docs.python.org/3/library/unittest.html)
-  and [hypothesis](https://pypi.org/project/hypothesis/)
-- Packaging and distributing a custom python library
-
-**Personal Reflection**: This project was simpler than the entrance test and provided a good learning playground for
-practicing basic python features (TypeHinting, Testing, Creating a Fluent Interface in Python, etc...)
-
-![sprint1_calc.png](img/sprint1_calc.png)
-
-**Reviewer's highlights**:
-
-> Score: 92
-
-> All project is in a good shape, code works perfectly, unit tests are written very well it does cover a lot of corner
-> cases. Pip installation works great.
-
-Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.1)
-
-## Sprint 2 - Data Analysis - Spotify Dataset
-
-**Project Requirements**: Analyze a small dataset and extract key insights to answer the questions provided.
-
-**Key Learnings**:
-
-- `numpy` and `pandas` basics
-- Basic visualization and plotting charts
-
-**Personal Reflection**: This project is the first Data Analysis project. It is guided and provides a preset list of
-questions, so we can just focus on practicing hands-on data wrangling without distractions.
-
-**Something silly**: As someone who loves musical puns, this is the only dataset where I can have a variable
-called [The_Corrs](https://en.wikipedia.org/wiki/The_Corrs) to store correlations!
-
-![sprint 2 - the corrs correlation table](img/sprint2_the_corrs.png)
-
-**Reviewer's highlights**:
-
-> Score: 93
-
-> Project technical part meet all requirements. Figures are nicely formatted, easy to read code and overall
-> understanding of the topic is good.
-
-Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.2)
-
-## Sprint 3 - Data Wrangling - Coursera Dataset
-
-**Project Requirements**: Use plotting libraries, visualizations and storytelling devices to analyze and create a story
-from the Coursera dataset provided.
-
-**Key Learnings**:
-
-- Visualizing data using `matplotlib`, `plotly` and `seaborn`
-
-![img.png](img/sprint3_intro.png)
-
-![sprint3_coursera.png](img/sprint3_coursera.png)
-
-**Personal Reflection**: This dataset was slight larger than the previous one and made it difficult to check things
-manually so fluency in pandas was a requirement to be able to answer some of the questions we defined. Most of the
-effort in the sprint was focused on the storytelling and not so much of trying different types of charts.
-
-**Challenges**: In terms of tech, the vast majority of time was spend creating custom functions to plot podiums for the
-winners (gold, silver, bronze) and learning how to use the libraries to customize the charts so they looked how we
-wanted (resolving ties automatically, etc...)
+![sql.png](img/sql.png)
 
 **Reviewer's highlights**:
 
 > Score: 100
 
-> Brilliant project!
-> * Very interesting approach to the proejct
-> * Clear structure and good conclusions
-> * Very high quality code
-> * Nicely formatted visualisations
-> * Good replies to questions with some interesting solutions suggested
-> * Well written tests to custom utils
+> This is by far the most complete submission for this exercise I have seen to date! 👏 well done!
+> Some of the things that make your work stand out:
+> - nice goal setting, which gives very clear direction and scope for your analysis.
+> - pragmatic about which data is useful
+> - duplicate investigation is very thorough with logical outcomes.
+> - advanced SQL skills
+> - awesome that you are considering the ethical issues of the questionnaire
+> - great python skills: utility functions with type hints, docstrings, and clean code practices.
+> - I loved your "product thinking", e.g. allowing users to make a "no answer" if they don't feel comfortable, instead of providing an incorrect one.
 
-Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.3)
 
-## Sprint 4 - Capstone Project - COVID Dataset
+Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DA.1)
 
-**Project Requirements**: You are one of the best data scientists in your country. The president of your
-country asked you to analyze the COVID-19 patient-level data of South Korea and prepare your homeland for the next wave
-of the pandemic. You, as the lead data scientist of your country have to create and prove a plan of fighting the
-pandemics in your country by analyzing the provided data. You must get the most critical insights using learned data
-science techniques and present them to the lead of your country.
+
+## Sprint 6 - Podcast Reviews
+
+**Project Requirements**: This project is about applying the learned statistical tools to a dataset with very few numerical features.
 
 **Key Learnings**:
-
-- How to approach datasets that span across multiple tables
-    - Infections, Locations, Patient Travel, Search engine trends, Government policies over time
-- Visualizing infections on maps to track hot spots/at risk cities
-- Making simple hypothesis (without implying/proving causality)
-
-![sprint4_covid.png](img/sprint4_covid.png)
-
-![sprint4_agegroups.png](img/sprint4_agegroups.png)
-
-![sprint4_map.png](img/sprint4_map.png)
+- advanced SQL
+- problem and data modelling
+- advanced statistical inference
+- anomaly and outlier detection
+- modelling of timed events
+- frequency analysis to detect bot-like reviewers
 
 **Personal Reflection**:
+This project allowed for a deep dive into using statistical inference tools to find anomalous datapoints that could be attributable to bots.
+
+The main approach was to model podcast reviews using a poisson distribution using the review's timestamp, and then using that to determine various cutoff points to identify particular users who were posting far beyond the expected ranges and frequencies.
+
+![podcasts.png](img/podcasts.png)
 
 **Reviewer's highlights**:
 
 > Score: 98
 
-> This was big project and I can see that learner put a lot of effort to complete it. Presentation was very good,
-> explain everything in 15 min. EDA is wide and deep, almost in all cross-sections data was validated/checked. Raised
-> questions and answers (proofs) are solid and in good shape.
+> Amazing project! Well done 👍 
+> * Great use of duckdb
+> * Interesting investigation of review anomalies
+> * Good understanding of statistical concepts
+> * Well communicated and presented project
+> * Nicely formatted visualisations that are easy to understand
+> * Very interesting insights and conclusions
 
-Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.3)
+Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DA.2)
+
+## Sprint 7 - Wine
+
+**Project Requirements**: This is the first project where we can apply supervised machine learning to try to predict various features from a portfolio of wine products sold by a vineyard.
+
+**Key Learnings**:
+- supervised machine learning
+	- linear regression
+	- logistic regression
+- domain modelling
+- manual & automated feature selection
+- manual & automated feature engineering
+- scikit learn pipelines for data transformation and preprocessing
+- interactive notebooks
+
+![wine.png](img/wine.png)
+
+![wine2.png](img/wine2.png)
+
+
+**Reviewer's highlights**:
+> Score: 95
+
+> Eduard, your project is very impressive. You thought about small details and your analysis is at very good depth. I mean feature engineering part looks like from research paper :) very solid looking work.
+
+Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DA.3)
+
+
+## Sprint 8 - Football
+
+**Project Requirements**: Analyze 25,000 matches and player data to try to beat the odds and predict match outcomes.
+
+**Key Learnings**:
+- EDA and Data modelling
+- Supervised Machine learning
+- Model selection
+- Feature selection
+- Feature engineering
+- Understanding Business context and avoiding accidental data leakage
+
+![football1.png](img/football1.png)
+
+![football2.png](img/football2.png)
+
+
+**Reviewer's highlights**:
+> Score: 100
+
+> Eduard, very good presentation. All parts are covered and explained nicely, not too long not to deep. Good balance between details and actual take away points. A lot of extra steps: pipelines, different statistical/ML models, explanations. All this brings the bar of quality even higher! Good job. It is easy to discuss with you about different topic of projects because you trying to get into it. Again, truly good project from e2e. 
+> * Impressive depth of analysis 
+> * Extracting features with highest importance and building appropriate models
+> * Thorough thoughts explanations
+> * Timing and checking for memory usage
+
+Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DA.4)
 
