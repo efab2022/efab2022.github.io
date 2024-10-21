@@ -140,3 +140,9 @@ Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ea
 
 Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DA.4)
 
+
+
+# Module 3
+
+Continue to ⏩ [Module 3 - Machine Learning](module3.md) to review the next set of projects.
+
