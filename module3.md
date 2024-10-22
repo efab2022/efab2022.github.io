@@ -50,7 +50,6 @@ Module 3 was about machine learning:
 - ensemble models: bagging, boosting, ...
 - creating custom loss functions
 
-
 **Reviewer's highlights**:
 
 > Score: 87
@@ -63,8 +62,6 @@ Module 3 was about machine learning:
 ![insurance.png](img/insurance.png)
 
 
-
-
 ## Sprint 10 - Stroke Risk
 
 **Project Requirements**: This project requires training a model to predict stroke risk and to deploy it with a simple web/mobile frontend, so users can enter their data and see a predicted score/risk.
@@ -73,15 +70,6 @@ Module 3 was about machine learning:
 - supervised machine learning, same as previous projects.
 - model packaging and deployment
 - creating a small cloud app using streamlit
-
-![](img/stroke1.png)
-
-![](img/stroke2.png)
-
-You can still find the deployed app over here: https://ealmas-stroke-risk.hf.space/
-
-Since it's on a free account, the first page load takes about a minute to spin up the service.
-
 
 **Reviewer's highlights**:
 
@@ -92,6 +80,17 @@ Since it's on a free account, the first page load takes about a minute to spin u
 > - Do not forget code quality: type hints should be used for the outputs of the function as well. Some larger functions might require docstrings; some charts were lacking namings as well.
 > 
 > I will hope to see more works like this :)
+
+___
+
+![](img/stroke1.png)
+
+![](img/stroke2.png)
+
+You can still find the deployed app over here: https://ealmas-stroke-risk.hf.space/
+
+Since it's on a free account, the first page load takes about a minute to spin up the service.
+
 
 
 
@@ -113,6 +112,14 @@ Since it's on a free account, the first page load takes about a minute to spin u
 - developed custom utils to cache and snapshot intermediate steps in processing to ensure only non cached steps are excuted.
     - this allowed to ensure that all steps of computation can be done end to end as well as to skip intermediate steps when needed.
 
+
+**Reviewer's highlights**:
+
+> Score: 94
+
+> Awesome job! Your project was very insightful and I really liked how you presented it. Also, I have no doubt that you are extremely good developer. With the set of skills you already have and Data Science knowledge, you would be a perfect fit for ML engineer position :) 
+
+
 ![](img/optuna-multiprocessing2.png)
 ___
 
@@ -122,14 +129,6 @@ ___
 
 on caching:
 ![](img/caching_utils.png)
-
-
-**Reviewer's highlights**:
-
-> Score: 94
-
-> Awesome job! Your project was very insightful and I really liked how you presented it. Also, I have no doubt that you are extremely good developer. With the set of skills you already have and Data Science knowledge, you would be a perfect fit for ML engineer position :) 
-
 
 
 ## Sprint 12 - Home Credit
@@ -148,6 +147,15 @@ on caching:
 - Most of the learnings and the most fun part was around further improving the library to parallelize, and store, all models and their hyperparameters, so they can be retrieved and analyzed at a later stage.
     - expanding the underlying structure to support ensemble models, and to allow capturing hyperparameters for inner models.
 
+**Reviewer's highlights**:
+
+> Score: 
+
+> - Great work! Extensive analysis and solution. Everything performed well from the technical side, all steps were taken to train and deploy the solution.
+- You are very confident presenting and have a good understanding of the solution. Good job on trying out multiple different techniques in basically every step of your analysis - much work was put in it!
+
+___
+
 ![](img/credit_score1.png)
 ___
 
@@ -159,14 +167,6 @@ ___
 some of the work to enhance the custom optuna wrapper library:
 ![](img/optuna_3.png)
 
-
-
-**Reviewer's highlights**:
-
-> Score: 
-
-> - Great work! Extensive analysis and solution. Everything performed well from the technical side, all steps were taken to train and deploy the solution.
-- You are very confident presenting and have a good understanding of the solution. Good job on trying out multiple different techniques in basically every step of your analysis - much work was put in it!
 
 
 

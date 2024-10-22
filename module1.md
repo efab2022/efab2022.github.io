@@ -26,17 +26,16 @@ The content is split into 4 projects/sprints
 
 **Project Requirements**: This project is about deploying a small calculator library to PyPI.
 
+This project was simpler than the entrance test and provided a good learning playground for practicing basic python features (TypeHinting, Testing, Creating a Fluent Interface in Python, etc...)
+
+![sprint1_calc.png](img/sprint1_calc.png)
+
 **Key Learnings**:
 
 - Python basics
 - Testing using [unittest](https://docs.python.org/3/library/unittest.html)
   and [hypothesis](https://pypi.org/project/hypothesis/)
 - Packaging and distributing a custom python library
-
-**Personal Reflection**: This project was simpler than the entrance test and provided a good learning playground for
-practicing basic python features (TypeHinting, Testing, Creating a Fluent Interface in Python, etc...)
-
-![sprint1_calc.png](img/sprint1_calc.png)
 
 **Reviewer's highlights**:
 
@@ -45,24 +44,19 @@ practicing basic python features (TypeHinting, Testing, Creating a Fluent Interf
 > All project is in a good shape, code works perfectly, unit tests are written very well it does cover a lot of corner
 > cases. Pip installation works great.
 
+
 Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.1)
 
 ## Sprint 2 - Data Analysis - Spotify Dataset
 
 **Project Requirements**: Analyze a small dataset and extract key insights to answer the questions provided.
 
+This project is the first Data Analysis project. It is guided and provides a preset list of questions, so we can just focus on practicing hands-on data wrangling without distractions.
+
 **Key Learnings**:
 
 - `numpy` and `pandas` basics
 - Basic visualization and plotting charts
-
-**Personal Reflection**: This project is the first Data Analysis project. It is guided and provides a preset list of
-questions, so we can just focus on practicing hands-on data wrangling without distractions.
-
-**Something silly**: As someone who loves musical puns, this is the only dataset where I can have a variable
-called [The_Corrs](https://en.wikipedia.org/wiki/The_Corrs) to store correlations!
-
-![sprint 2 - the corrs correlation table](img/sprint2_the_corrs.png)
 
 **Reviewer's highlights**:
 
@@ -70,6 +64,11 @@ called [The_Corrs](https://en.wikipedia.org/wiki/The_Corrs) to store correlation
 
 > Project technical part meet all requirements. Figures are nicely formatted, easy to read code and overall
 > understanding of the topic is good.
+
+**Something fun**:
+As someone who loves musical puns, this is the only dataset where I can have a variable called [The_Corrs](https://en.wikipedia.org/wiki/The_Corrs) to store correlations!
+
+![sprint 2 - the corrs correlation table](img/sprint2_the_corrs.png)
 
 Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.2)
 
@@ -85,14 +84,6 @@ from the Coursera dataset provided.
 ![img.png](img/sprint3_intro.png)
 
 ![sprint3_coursera.png](img/sprint3_coursera.png)
-
-**Personal Reflection**: This dataset was slight larger than the previous one and made it difficult to check things
-manually so fluency in pandas was a requirement to be able to answer some of the questions we defined. Most of the
-effort in the sprint was focused on the storytelling and not so much of trying different types of charts.
-
-**Challenges**: In terms of tech, the vast majority of time was spend creating custom functions to plot podiums for the
-winners (gold, silver, bronze) and learning how to use the libraries to customize the charts so they looked how we
-wanted (resolving ties automatically, etc...)
 
 **Reviewer's highlights**:
 
@@ -123,14 +114,6 @@ science techniques and present them to the lead of your country.
 - Visualizing infections on maps to track hot spots/at risk cities
 - Making simple hypothesis (without implying/proving causality)
 
-![sprint4_covid.png](img/sprint4_covid.png)
-
-![sprint4_agegroups.png](img/sprint4_agegroups.png)
-
-![sprint4_map.png](img/sprint4_map.png)
-
-**Personal Reflection**:
-
 **Reviewer's highlights**:
 
 > Score: 98
@@ -138,6 +121,13 @@ science techniques and present them to the lead of your country.
 > This was big project and I can see that learner put a lot of effort to complete it. Presentation was very good,
 > explain everything in 15 min. EDA is wide and deep, almost in all cross-sections data was validated/checked. Raised
 > questions and answers (proofs) are solid and in good shape.
+
+
+![sprint4_covid.png](img/sprint4_covid.png)
+
+![sprint4_agegroups.png](img/sprint4_agegroups.png)
+
+![sprint4_map.png](img/sprint4_map.png)
 
 Check out the project in [Github](https://github.com/TuringCollegeSubmissions/ealmas-DWWP.4)
 
