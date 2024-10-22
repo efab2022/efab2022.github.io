@@ -132,26 +132,35 @@ Since it's on a free account, the first page load takes about a minute to spin u
 
 ## Sprint 12 - Home Credit
 
-**Project Requirements**: xxxxxxxx
+**Project Requirements**: this capstone project focuses on the end-to-end lifecycle:
+- translating business requirements into data science tasks
+- selecting evaluations metrics and goals
+- EDA, data cleaning, statistical inferencial analysis, ...
+- feature engineering and data preprocessing
+- using machine learning to solve business problems
+- deploying multiple machine learning models to cloud
+
 
 **Key Learnings**:
-- supervised machine learning
-- model selection
-- feature selection
-- feature engineering
-- business perspective: selecting a metric to measure success
-- model evaluation
-- ensemble models: bagging, boosting, ...
-- creating custom loss functions
+- this project did not necessarily require new skills, but was a really good opportunity to practice and apply the skills already learned, and to apply them in a more structured and methodical way.
+- Most of the learnings and the most fun part was around further improving the library to parallelize, and store, all models and their hyperparameters, so they can be retrieved and analyzed at a later stage.
+    - expanding the underlying structure to support ensemble models, and to allow capturing hyperparameters for inner models.
+
+![](img/credit_score1.png)
+
+![](img/credit_score2.gif)
+
+![](img/optuna_3.png)
+
 
 
 **Reviewer's highlights**:
 
 > Score: 
 
-> - 
+> - Great work! Extensive analysis and solution. Everything performed well from the technical side, all steps were taken to train and deploy the solution.
+- You are very confident presenting and have a good understanding of the solution. Good job on trying out multiple different techniques in basically every step of your analysis - much work was put in it!
 
-![](img/xxx.png)
 
 
 # Module 4
