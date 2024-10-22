@@ -90,7 +90,7 @@ Since it's on a free account, the first page load takes about a minute to spin u
 > - Extraordinary job. You nailed it from the EDA to the evaluation and deployment. All the comments that I have are really minor ones:
 > - Try to think of modeling as iterative process, spend more time trying different techniques (for example different imputation techniques, different scalers, dealing with imbalances). Scikit-learn pipelines give you ability to actually test even different combinations of them
 > - Do not forget code quality: type hints should be used for the outputs of the function as well. Some larger functions might require docstrings; some charts were lacking namings as well.
-
+> 
 > I will hope to see more works like this :)
 
 
@@ -110,24 +110,27 @@ Since it's on a free account, the first page load takes about a minute to spin u
 - larger-than-memory data wrangling, cleaning and model training
 - created custom wrapper for optuna to leverage multi-core computation
     - learned why linux is loved when it comes to data science.
-
+- developed custom utils to cache and snapshot intermediate steps in processing to ensure only non cached steps are excuted.
+    - this allowed to ensure that all steps of computation can be done end to end as well as to skip intermediate steps when needed.
 
 ![](img/optuna-multiprocessing2.png)
 
 ![](img/optuna-multiprocessing.png)
 
+![](img/caching_utils.png)
 
 
 **Reviewer's highlights**:
 
-> Score: 
+> Score: 94
 
-> - 
-
-
+> Awesome job! Your project was very insightful and I really liked how you presented it. Also, I have no doubt that you are extremely good developer. With the set of skills you already have and Data Science knowledge, you would be a perfect fit for ML engineer position :) 
 
 
-## Sprint 12 - xxxxxxxxxxxx
+
+
+
+## Sprint 12 - Home Credit
 
 **Project Requirements**: xxxxxxxx
 
