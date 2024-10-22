@@ -38,7 +38,7 @@ Module 3 was about machine learning:
 
 ## Sprint 9 - Travel Insurance
 
-**Project Requirements**: This is the first project where we can apply machine learning to perform market segmentation and customer analysis. The goal is to train a model to identify potential customers for a travel insurance, based on historical data.
+**Project Requirements**: In this project we perform market segmentation and customer analysis. The goal is to train a model to identify potential customers for a travel insurance, based on historical data.
 
 **Key Learnings**:
 - supervised machine learning
@@ -65,6 +65,90 @@ Module 3 was about machine learning:
 
 
 
+## Sprint 10 - Stroke Risk
+
+**Project Requirements**: This project requires training a model to predict stroke risk and to deploy it with a simple web/mobile frontend, so users can enter their data and see a predicted score/risk.
+
+**Key Learnings**:
+- supervised machine learning, same as previous projects.
+- model packaging and deployment
+- creating a small cloud app using streamlit
+
+![](img/stroke1.png)
+
+![](img/stroke2.png)
+
+You can still find the deployed app over here: https://ealmas-stroke-risk.hf.space/
+
+Since it's on a free account, the first page load takes about a minute to spin up the service.
+
+
+**Reviewer's highlights**:
+
+> Score: 96
+
+> - Extraordinary job. You nailed it from the EDA to the evaluation and deployment. All the comments that I have are really minor ones:
+> - Try to think of modeling as iterative process, spend more time trying different techniques (for example different imputation techniques, different scalers, dealing with imbalances). Scikit-learn pipelines give you ability to actually test even different combinations of them
+> - Do not forget code quality: type hints should be used for the outputs of the function as well. Some larger functions might require docstrings; some charts were lacking namings as well.
+
+> I will hope to see more works like this :)
+
+
+
+
+## Sprint 11 - Loan Prediction
+
+**Project Requirements**: The first dataset over 2 million rows, with abundant EDA, cleaning and preprocessing, and 4 objectives:
+- predicting loan acceptance/rejection
+- predicting load grade
+- predicting loan subgrade
+- predicting loan interest
+- create a custom backend with flask 
+- deploy the model to GCP google cloud platform
+
+**Key Learnings**:
+- larger-than-memory data wrangling, cleaning and model training
+- created custom wrapper for optuna to leverage multi-core computation
+    - learned why linux is loved when it comes to data science.
+
+
+![](img/optuna-multiprocessing2.png)
+
+![](img/optuna-multiprocessing.png)
+
+
+
+**Reviewer's highlights**:
+
+> Score: 
+
+> - 
+
+
+
+
+## Sprint 12 - xxxxxxxxxxxx
+
+**Project Requirements**: xxxxxxxx
+
+**Key Learnings**:
+- supervised machine learning
+- model selection
+- feature selection
+- feature engineering
+- business perspective: selecting a metric to measure success
+- model evaluation
+- ensemble models: bagging, boosting, ...
+- creating custom loss functions
+
+
+**Reviewer's highlights**:
+
+> Score: 
+
+> - 
+
+![](img/xxx.png)
 
 
 # Module 4
