@@ -88,16 +88,6 @@ Appreciate time having with Eduard with this correction. Congratulations and goo
 - Model comparison and evaluation
 - Data preprocessing for natural language processing.
 
-
-comparing different models:
-![](img/xxx.png)
-___
-
-
-![](img/xxx.png)
-
-
-
 **Reviewer's highlights**:
 
 > Score: 96
@@ -105,58 +95,54 @@ ___
 > Eduard, your project is good and do not have any major errors or problems. I really like to see how you are organizing and presenting notebooks, It's easy to follow and understand. Your performed single string prediction demonstration also helps to see how full end-to-end solution is able to train model, evaluate, and predict new cases.
 
 
+Optimizing the model training
+
+![](img/toxic_comments_2.png)
+___
+evaluating performance of all outputs:
+![](img/toxic_comments_1.png)
 
 
-## Sprint 15 - xxxxxx
+## Sprint 15 - Facial recognition
 
-**Project Requirements**: 
+**Project Requirements**: This project requires training a single model that returns age and gender of the person in the picture, in a single pass, as well as exploring model bias, interpretability and other issues that may arise.
 
 **Key Learnings**:
-- x
-- x
-
-
-comparing different models:
-![](img/xxx.png)
-___
-
-
-![](img/xxx.png)
-
+- How to perform data preprocessing, deduplication, and similarity detection for image data.
+- Creating a single pass end-to-end trainable deep learning model with multiple outputs
+- Deciding and comparing different ways to assessing its performance
+- using LIME for interpretability and assessing problematic points (in the model and in the training data), as well as bias and other issues that could be fixed in future iterations.
 
 
 **Reviewer's highlights**:
 
-> Score: 
+> Score: 100
 
-> Eduard
-
-
-
-
-
-
-## Sprint 16 - xxxxxx
-
-**Project Requirements**: 
-
-**Key Learnings**:
-- x
-- x
+> Eduard again made a brilliant project! He not only satisfied the task requirements, but exceeded that with a series of extra miles, by optimising the entire code with decorators, helper functions and packages. He made incredible prediction analysis concerning xAi and ethical AI guidelines and best practices. Everything was explained very well. EDA was also very insightful and rich of carefully prepared visualisations. All components of the projects looks very professional. 
+Moreover, the oral presentation was very clear, as Eduard highlighted all the important parts of the project and answered & discussed reflecting to all questions I raised.
+No more comments, except that it was one of the most professional work presented in TC at Data science course.
+Gongratulation Eduard!
 
 
-comparing different models:
-![](img/xxx.png)
+performance considerations when looking for identical and similar faces:
+![](img/similar_images.png)
 ___
 
 
-![](img/xxx.png)
+![](img/similar_images2.png)
+___
+
+Exploring ideal threshold (hamming distance) to ensure only identical images are detected and removed.
+![](img/similar_images3.png)
+___
+
+Assessing model explainability using LIME
+![](img/faces_explainability.png)
+
+___
+Assessing model performance
+![](img/faces_performance.png)
+![](img/faces_performance2.png)
 
 
-
-**Reviewer's highlights**:
-
-> Score: 
-
-> Eduard
 
