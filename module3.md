@@ -107,16 +107,18 @@ Since it's on a free account, the first page load takes about a minute to spin u
 - deploy the model to GCP google cloud platform
 
 **Key Learnings**:
-- larger-than-memory data wrangling, cleaning and model training
+- larger-than-memory data wrangling, cleaning and model training using various techniques (dask and custom libraries)
 - created custom wrapper for optuna to leverage multi-core computation
     - learned why linux is loved when it comes to data science.
 - developed custom utils to cache and snapshot intermediate steps in processing to ensure only non cached steps are excuted.
     - this allowed to ensure that all steps of computation can be done end to end as well as to skip intermediate steps when needed.
 
 ![](img/optuna-multiprocessing2.png)
+___
 
 on multiprocessing:
 ![](img/optuna-multiprocessing.png)
+___
 
 on caching:
 ![](img/caching_utils.png)
@@ -147,9 +149,14 @@ on caching:
     - expanding the underlying structure to support ensemble models, and to allow capturing hyperparameters for inner models.
 
 ![](img/credit_score1.png)
+___
+
+this project also had 3 confidential features that had a lot of predictive power, but were labelled poorly intentionally. Those 3 confidential features also had some small gaps and missing values. One of the core goals was to try different imputation strategies to fill in the blanks, and to try visualize how they spread and contribute to the final target label.
 
 ![](img/credit_score2.gif)
+___
 
+some of the work to enhance the custom optuna wrapper library:
 ![](img/optuna_3.png)
 
 
