@@ -1,6 +1,6 @@
 # Module 3 - Machine Learning
 
-Module 3 is about machine learning:
+Module 3 was about machine learning:
 - supervised and unsupervised machine learning
 	- linear models
 	- tree-based models
