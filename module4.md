@@ -1,8 +1,7 @@
 # Module 4 - Deep Learning
 
 Module 4 is about deep learning:
-
-- deep learning
+- Deep learning
     - ANN - artificial neural networks
     - RNN - Recurrent Neural Networks
         - LSTMs - Long short-term memory
@@ -10,47 +9,40 @@ Module 4 is about deep learning:
     - Autoencoders
     - Transfer learning
     - CV - computer vision
-        - binary, multi-class and multi-label models
-        - resnet
+        - Binary, multi-class, and multi-label models
+        - ResNet
     - NLP - natural language processing and sentiment analysis
-        - BERT, DistilBert, RoBERTa and derived models
-        - self-attention
-        - transformers
-        - longformers
+        - BERT, DistilBERT, RoBERTa, and derived models
+        - Self-attention
+        - Transformers
+        - Longformers
         - GPT-x
     - Data preprocessing techniques for CV and NLP
     - Practical AI ethics
-        - bias in decision-making
-        - machine learning ethics
-        - AI Security and exploits
-        - model interpretability and explainability
+        - Bias in decision-making
+        - Machine learning ethics
+        - AI security and exploits
+        - Model interpretability and explainability
 - Libraries/Frameworks
-    - pytorch
-    - pytorch-lightning
-    - fastai
-    - tensorflow
-    - huggingface
-    - lime 
+    - PyTorch
+    - PyTorch Lightning
+    - Fastai
+    - TensorFlow
+    - Hugging Face
+    - Lime
 
+## Sprint 13 - Mushroom Classification
 
-## Sprint 13 - Mushroom classification
+**Project Requirements:** The first computer vision project focused on classifying pictures of mushrooms.
 
-**Project Requirements**: The first computer vision project focused on classifying pictures of mushrooms.
-
-**Key Learnings**:
-- How to apply transfer learning and finetuning to use an existing pretrained model for a new, but similar, purpose.
+**Key Learnings:**
+- How to apply transfer learning and fine-tuning to use an existing pretrained model for a new, but similar, purpose.
 - Model comparison and evaluation
-- Data preprocessing for computer vision tasks
+- Data preprocessing for computer vision tasks, comparing different models:
 
+![Mushroom Comparison](img/mushrooms_comparison.png)
 
-comparing different models:
-![](img/mushrooms_comparison.png)
-___
-
-
-![](img/mushrooms_performance.png)
-
-
+![Mushroom Performance](img/mushrooms_performance.png)
 
 **Reviewer's highlights**:
 
@@ -80,13 +72,13 @@ Appreciate time having with Eduard with this correction. Congratulations and goo
 
 ## Sprint 14 - Toxic Comments
 
-**Project Requirements**: In this Natural Language Processing project, we are tasked with tuning a pretrained transformer (BERT) to create a multi-class classifier that can flag toxic comments in up to 6 different categories, in a single inference pass.
+**Project Requirements:** In this Natural Language Processing project, we are tasked with tuning a pretrained transformer (BERT) to create a multi-class classifier that can flag toxic comments in up to 6 different categories, in a single inference pass.
 
-**Key Learnings**:
-- How to apply transfer learning and finetuning to natural language processing tasks.
-- How to create multi-class classifiers and how to decide and finetune their loss function.
+**Key Learnings:**
+- How to apply transfer learning and fine-tuning to natural language processing tasks
+- How to create multi-class classifiers and how to decide and fine-tune their loss functions
 - Model comparison and evaluation
-- Data preprocessing for natural language processing.
+- Data preprocessing for natural language processing
 
 **Reviewer's highlights**:
 
@@ -95,23 +87,23 @@ Appreciate time having with Eduard with this correction. Congratulations and goo
 > Eduard, your project is good and do not have any major errors or problems. I really like to see how you are organizing and presenting notebooks, It's easy to follow and understand. Your performed single string prediction demonstration also helps to see how full end-to-end solution is able to train model, evaluate, and predict new cases.
 
 
-Optimizing the model training
+Optimizing the model training and evaluating the performance of all outputs:
 
-![](img/toxic_comments_2.png)
-___
-evaluating performance of all outputs:
-![](img/toxic_comments_1.png)
+![Toxic Comments 2](img/toxic_comments_2.png)
 
+Evaluating performance of all outputs:
 
-## Sprint 15 - Facial recognition
+![Toxic Comments 1](img/toxic_comments_1.png)
 
-**Project Requirements**: This project requires training a single model that returns age and gender of the person in the picture, in a single pass, as well as exploring model bias, interpretability and other issues that may arise.
+## Sprint 15 - Facial Recognition
 
-**Key Learnings**:
-- How to perform data preprocessing, deduplication, and similarity detection for image data.
-- Creating a single pass end-to-end trainable deep learning model with multiple outputs
-- Deciding and comparing different ways to assessing its performance
-- using LIME for interpretability and assessing problematic points (in the model and in the training data), as well as bias and other issues that could be fixed in future iterations.
+**Project Requirements:** This project requires training a single model that returns the age and gender of the person in the picture in a single pass, as well as exploring model bias, interpretability, and other issues that may arise.
+
+**Key Learnings:**
+- How to perform data preprocessing, deduplication, and similarity detection for image data
+- Creating a single-pass end-to-end trainable deep learning model with multiple outputs
+- Deciding and comparing different ways to assess its performance
+- Using LIME for interpretability and assessing problematic points (in the model and in the training data), as well as bias and other issues that could be fixed in future iterations
 
 
 **Reviewer's highlights**:
@@ -124,25 +116,22 @@ No more comments, except that it was one of the most professional work presented
 Gongratulation Eduard!
 
 
-performance considerations when looking for identical and similar faces:
-![](img/similar_images.png)
-___
+Performance considerations when looking for identical and similar faces:
 
+![Similar Images](img/similar_images.png)
 
-![](img/similar_images2.png)
-___
+![Similar Images 2](img/similar_images2.png)
 
-Exploring ideal threshold (hamming distance) to ensure only identical images are detected and removed.
-![](img/similar_images3.png)
-___
+Exploring the ideal threshold (Hamming distance) to ensure only identical images are detected and removed:
 
-Assessing model explainability using LIME
-![](img/faces_explainability.png)
+![Similar Images 3](img/similar_images3.png)
 
-___
-Assessing model performance
-![](img/faces_performance.png)
-![](img/faces_performance2.png)
+Assessing model explainability using LIME:
 
+![Faces Explainability](img/faces_explainability.png)
 
+Assessing model performance:
+
+![Faces Performance](img/faces_performance.png)
+![Faces Performance 2](img/faces_performance2.png)
 
