@@ -115,8 +115,10 @@ Since it's on a free account, the first page load takes about a minute to spin u
 
 ![](img/optuna-multiprocessing2.png)
 
+on multiprocessing:
 ![](img/optuna-multiprocessing.png)
 
+on caching:
 ![](img/caching_utils.png)
 
 
@@ -125,8 +127,6 @@ Since it's on a free account, the first page load takes about a minute to spin u
 > Score: 94
 
 > Awesome job! Your project was very insightful and I really liked how you presented it. Also, I have no doubt that you are extremely good developer. With the set of skills you already have and Data Science knowledge, you would be a perfect fit for ML engineer position :) 
-
-
 
 
 
