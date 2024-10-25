@@ -1,10 +1,6 @@
+# Data Science Projects Portfolio
 
-
-
-# Data Science Portfolio
-
-You can browse a summary of each of the modules, project, and topics covered, or you can browse individual project
-notebooks.
+You can browse a [summary of the modules](#summary), and topics covered, or you can browse [individual project notebooks](#notebooks)
 
 Note that some parts of the notebooks, and all the behind-the-scenes utilities, have been truncated or omitted to comply
 with TC plagiarism policies.
@@ -16,7 +12,7 @@ with TC plagiarism policies.
 - [Module 3 - Machine Learning](summary/module3.md)
 - [Module 4 - Deep Learning](summary/module4.md)
 
-# Browse Notebooks
+# Notebooks
 
 - Module 0:
     - Admissions test - KNN from scratch
@@ -41,7 +37,7 @@ with TC plagiarism policies.
 
 - Module 3
     - Sprint 9 - [<img src="notebook/jupyter96.png" style="height:1em"/> travel insurance](notebook/9-insurance/9-insurance.html)
-    - Sprint 10 - [<img src="notebook/jupyter96.png" style="height:1em"/> stroke risk](notebook/10-stroke/10-stroke.html)
+    - Sprint 10 - [<img src="notebook/jupyter96.png" style="height:1em"/> stroke risk notebook](notebook/10-stroke/10-stroke.html) or [<img style="height: 1em" src="https://img.icons8.com/ios-filled/50/streamlit.png" alt="streamlit"/> streamlit deployed application](https://ealmas-stroke-risk.hf.space/)
     - Sprint 11 - credit loans
         - part 1: [<img src="notebook/jupyter96.png" style="height:1em"/> EDA](notebook/11-loans/sprint0_data_cleaning.html)
         - part 2: [<img src="notebook/jupyter96.png" style="height:1em"/> predicting acceptance](notebook/11-loans/sprint1_predicting_loan_acceptance.html)
