@@ -130,3 +130,15 @@ Check out the [<img src="../notebook/jupyter96.png" style="height:1em"/> project
 # Module 2
 
 Continue to ⏩ [Module 2](module2.md) to review the next set of projects.
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta name="Googlebot" content="noindex">
+    <meta name="Bingbot" content="noindex">
+    <meta name="Slurp" content="noindex">
+    <meta name="DuckDuckBot" content="noindex">
+    <meta name="facebot" content="noindex">
+    <meta name="Baiduspider" content="noindex">
+    <meta name="YandexBot" content="noindex">
+    <meta name="ia_archiver" content="noindex">
+</head>
