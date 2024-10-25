@@ -1,15 +1,5 @@
 
-<head>
-    <meta name="robots" content="noindex">
-    <meta name="Googlebot" content="noindex">
-    <meta name="Bingbot" content="noindex">
-    <meta name="Slurp" content="noindex">
-    <meta name="DuckDuckBot" content="noindex">
-    <meta name="facebot" content="noindex">
-    <meta name="Baiduspider" content="noindex">
-    <meta name="YandexBot" content="noindex">
-    <meta name="ia_archiver" content="noindex">
-</head>
+
 
 # Data Science Portfolio
 
