@@ -1,9 +1,16 @@
+# About Me
+
+![](me.jpg)
+
+I have recently graduated from Turing College after completing a Data Science, Machine Learning and Deep Learning specialization, and I'm looking for a company where I can apply my newly learned skills, while I also contribute with my extensive experience in software development, agile methodologies and extreme programming practices (TDD, Pairing, Trunk-based-development, etc...)
+
+This is a summary of all the projects I have developed during my course. You can find a summary of the project, the skills that I developed, some of the challenges, and a summary of the reviewer's feedback, along with the detailed project.
+
 # Data Science Projects Portfolio
 
 You can browse a [summary of the modules](#summary), and topics covered, or you can browse [individual project notebooks](#notebooks)
 
-Note that some parts of the notebooks, and all the behind-the-scenes utilities, have been truncated or omitted to comply
-with TC plagiarism policies.
+Note that some parts of the notebooks, and all the behind-the-scenes utilities, have been truncated or omitted to comply with TC plagiarism policies.
 
 # Summary
 
